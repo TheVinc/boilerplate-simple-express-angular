@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="myAngularApp">
+	<head>
+		<base href="/">
+		<title>express-angular-boilerplate</title>
+		
+		<!-- bower:css -->
+		<!-- endbower -->
+		<link rel="stylesheet" href="/style/main.css">
+		
+	</head>
+	<body>
+		<!-- NAVIGATION -->
+		<nav class="navbar" role="navigation">
+		    <div class="navbar-header">
+		        <a class="navbar-brand" ui-sref="page">Home page</a>
+		    </div>
+		    <!-- <ul class="nav navbar-nav">
+		        <li><a ui-sref="home">Home</a></li>
+		        <li><a ui-sref="about">About</a></li>
+		    </ul> -->
+		</nav>
+		<ui-view/>
+		<!-- bower:js -->
+		<script src="bower_components/angular/angular.js"></script>
+		<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+		<!-- endbower -->
+		<script src="/lib/sugar.min.js"></script>
+		<script src="/app.js"></script>
+	</body>
+</html>

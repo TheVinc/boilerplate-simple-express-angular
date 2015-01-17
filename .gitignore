@@ -1,0 +1,4 @@
+node_modules
+*.sublime*
+bin
+src/front/bower_components
